@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pandas-polars-comparison-presentation"
+version = "0.1.0"
+description = ""
+authors = ["Andrew Fiorillo <andrew.fiorillo@deliveryhero.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.0"
+polars = "^0.20.6"
+pyarrow = "^15.0.0"
+shapely = "^2.0.2"
+folium = "^0.15.1"
+matplotlib = "^3.8.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.1.1"
+ruff = "^0.1.15"
+ipython = "^8.20.0"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
