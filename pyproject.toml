@@ -15,7 +15,7 @@ folium = "^0.15.1"
 matplotlib = "^3.8.2"
 
 [tool.poetry.group.dev.dependencies]
-black = "^24.1.1"
+black = "^24.3.0"
 ruff = "^0.1.15"
 ipython = "^8.20.0"
 jupyter = "^1.0.0"
